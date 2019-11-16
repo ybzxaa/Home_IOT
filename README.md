@@ -4,8 +4,8 @@
  
  snapshot:
  
-(https://github.com/ybzxaa/Home_IOT/blob/master/README_Images/mini-program.png)
-(https://github.com/ybzxaa/Home_IOT/blob/master/README_Images/0.png)
+![scan](https://github.com/ybzxaa/Home_IOT/blob/master/README_Images/mini-program.png)
+![1](https://github.com/ybzxaa/Home_IOT/blob/master/README_Images/0.png)
 (https://github.com/ybzxaa/Home_IOT/blob/master/README_Images/1.png)
 (https://github.com/ybzxaa/Home_IOT/blob/master/README_Images/2.png)
 (https://github.com/ybzxaa/Home_IOT/blob/master/README_Images/3.png)
