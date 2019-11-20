@@ -1,0 +1,29 @@
+$def with (cam_data1)
+
+<body>
+<p>摄像机设置</p>
+
+<form method="post" action="cam_modify">    
+    <table border='0' >
+    $for row in cam_data1
+        <p>摄像机序号: <input type="text" name="id" value=$row[0] readonly='true' /></p>
+        <tr align='left'>    
+            <th> 摄像机IP:</th>
+            <th> <input type="text" name="cam_ip" value=$row[1] /></th>
+            <th>    </th>
+            <th> 摄像机标签:</th>
+            <th><input type="text" name="cam_label" value=$row[2] /></th>
+        </tr>
+        <tr align='left'>
+            <th> 摄像机信息: </th>
+            <th><input type="text" name="cam_info" value=$row[3] /></th>
+            <th>    </th>
+            <th> 视频流信息: </th>
+            <th><input type="text" name="stream" value=$row[4] /></th>
+        </tr>
+        
+    </table>
+    <input type="submit" value="修改">
+</form>
+
+</body>
