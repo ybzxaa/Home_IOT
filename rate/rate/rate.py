@@ -16,7 +16,7 @@ mysql_host='127.0.0.1'
 mysql_port=3306
 mysql_db='digithouse'
 mysql_user='dhouse'
-mysql_pwd='ybzx1008'
+mysql_pwd=''
 mysql_charset='utf8'
 
 va=''
